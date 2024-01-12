@@ -9,7 +9,7 @@ const Hero = () => {
     scrollTrigger: {
       trigger: ".cta-btn",
       start: "top top",
-      end: "+=200",
+      end: "+=1",
       
     }
   })
@@ -52,7 +52,7 @@ const Hero = () => {
         amount: .5,
         from: "start"
       }
-    })
+    }).addLabel("end")
   },[timeline])
 
   
