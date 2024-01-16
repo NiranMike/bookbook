@@ -15,3 +15,37 @@ body{
 .poppin--font{
   font-family: 'Poppins', sans-serif;
 }
+p::selection{
+  background-color: #fbc308;
+  color: black;
+}
+
+span::selection{
+  background-color: #fbc308;
+  color: black;
+}
+
+div::selection{
+  background-color: #fbc308;
+  color: black;
+}
+
+img::selection{
+  background-color: #fbc308;
+  color: black;
+}
+
+button::selection{
+  background-color: #fbc308;
+  color: black;
+}
+
+li::selection{
+  background-color: #fbc308;
+  color: black;
+}
+
+h2::selection{
+  background-color: #fbc308;
+  color: black;
+}

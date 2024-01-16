@@ -1,4 +1,5 @@
 import Cursor from "./components/Cursor"
+import Explore from "./components/Explore"
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 import Pillar from "./components/Pillar"
@@ -15,6 +16,7 @@ function App() {
           <Hero />
           <Pillar />
         </div>
+        <Explore />
         
       </div>
     </>

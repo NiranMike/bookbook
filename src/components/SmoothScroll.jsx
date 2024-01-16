@@ -5,7 +5,7 @@ const SmoothScroll = ({children}) => {
     
   return (
     <ReactLenis root options={{
-        lerp:0.3,
+        lerp:0.08,
         smoothTouch:true
     }}>
         {children}

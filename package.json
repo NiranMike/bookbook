@@ -10,11 +10,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@gsap/react": "^2.0.2",
     "@studio-freight/hamo": "^0.6.24",
     "@studio-freight/react-lenis": "^0.0.39",
+    "framer-motion": "^10.18.0",
     "gsap": "^3.12.4",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-draggable": "^4.4.6"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",

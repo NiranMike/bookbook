@@ -26,7 +26,7 @@ const Card = ({ title, image, description }) => {
             amount: 2,
             from: "bottom"
         }
-        })
+        }).addLabel("end")
     },[timeline1])
 
   return (
