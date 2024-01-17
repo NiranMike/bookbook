@@ -3,6 +3,8 @@ import Explore from "./components/Explore"
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 import Pillar from "./components/Pillar"
+import Principles from "./components/Principles"
+import Team from "./components/Team"
 
 
 function App() {
@@ -17,7 +19,8 @@ function App() {
           <Pillar />
         </div>
         <Explore />
-        
+        <Principles />
+        <Team />
       </div>
     </>
   )

@@ -1,6 +1,6 @@
 import gsap from "gsap"
 import { ScrollTrigger, Power1 } from "gsap/all"
-import { useEffect, useState } from "react"
+import { useEffect } from "react"
 import ExploreCard from "./ExploreCard";
 
 
@@ -49,17 +49,7 @@ const Explore = () => {
         }).addLabel("end")
     }, [timeline1])
 
-    const slider = document.querySelector(".slider");
-    let isDown = false;
-    let startX;
-    let scrollLeft;
 
-    function mouseDown(e) {
-        isDown = true;
-        console.log(e)
-        slider.classList.add("active")
-        
-    }
 
     const handleDragStart = (e) => {
         e.dataTransfer.setData('text/plain', ''); // Necessary for some browsers to enable dragging
@@ -78,7 +68,13 @@ const Explore = () => {
         </div>
         {/* slider should be here */}
         <div className=" overflow-x-scroll ">
-            <div onDragEnter={(e) => handleDragStart(e)} onMouseDown={(e) => mouseDown(e)} className="slider w-screen flex  overflow-x-visible">
+            <div draggable 
+                onDragStart={handleDragStart} 
+                onDrag={(e) => {
+                    const xPosition = e.clientX;
+                    console.log('X position:', xPosition);
+                }} 
+                className="slider  flex  overflow-x-visible">
                 {imgs.map((img, i)=>{
                     return(
                         <div key={i}>
