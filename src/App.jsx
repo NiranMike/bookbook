@@ -1,3 +1,4 @@
+import BusinessDecision from "./components/BusinessDecision"
 import Cursor from "./components/Cursor"
 import Explore from "./components/Explore"
 import Hero from "./components/Hero"
@@ -23,6 +24,7 @@ function App() {
         <Principles />
         <Team />
         <Insights />
+        <BusinessDecision />
       </div>
     </>
   )

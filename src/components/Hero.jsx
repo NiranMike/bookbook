@@ -135,8 +135,8 @@ const Hero = () => {
               <p className="text-[#75727D]   text-[1.2rem]">Unlock the full potential of your business with data-driven consultancy. Employ a powerful combination of data interpretation and strategic expertise to make informed decisions. Optimise pricing, brand equity, product development and customer targeting while driving sustainable growth in today&apos;s competitive market.</p>
             </div>
             <div className="flex gap-12 cta-btn translate-y-[90px]">
-              <button className="px-6 py-3 font-bold rounded-3xl text-[#B999FC] hover:bg-[#2b1f4b] transition-all duration-200 bg-[#190C39] flex items-center gap-2"><p>Explore our expertise</p> <span className="text-[1.2rem] ">&#8594;</span></button>
-              <button className="px-6 py-3 font-bold rounded-3xl text-[#190C39] hover:bg-[#c7affc] bg-[#B999FC] transition-all duration-200 flex items-center gap-2"><p>Why work with us</p> <span className="text-[1.2rem]">&#8594;</span></button>
+              <button className="px-6 py-3 font-bold rounded-full text-[#B999FC] hover:bg-[#2b1f4b] transition-all duration-200 bg-[#190C39] flex items-center gap-2"><p>Explore our expertise</p> <span className="text-[1.2rem] ">&#8594;</span></button>
+              <button className="px-6 py-3 font-bold rounded-full text-[#190C39] hover:bg-[#c7affc] bg-[#B999FC] transition-all duration-200 flex items-center gap-2"><p>Why work with us</p> <span className="text-[1.2rem]">&#8594;</span></button>
             </div>
         </div>
         <div className="hero--image opacity-0 translate-x-[50rem]">

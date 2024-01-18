@@ -63,7 +63,7 @@ const Explore = () => {
             <div className="text-[#B999FC] explore--text--anim diff--font opacity-0 translate-y-9 w-[350px] text-[3rem]">Explore our <span className="poppin--font">case studies</span></div>
             <div className="flex flex-col gap-9">
                 <p className="text-white explore--text--anim font-medium opacity-0 translate-y-9 text-base">Discover stories of businesses that overcame challenges and achieved remarkable results thanks to our tailored and collaborative approach.</p>
-                <div className="py-3 w-[285px] explore--btn--anim opacity-0 translate-y-[3rem] rounded-3xl hover:bg-[#baa2ec] cursor-pointer  flex items-center gap-2 group  font-bold px-4 bg-[#B999FC]">Explore our case studies <span className="text-[1.2rem] delay-75 opacity-0 transition-all duration-300 ease-in-out -translate-x-[24px] group-hover:translate-x-1 group-hover:opacity-100 ">&#8594;</span> <span className="text-[1.2rem] ease-in-out delay-75 -translate-x-6 group-hover:translate-x-0 group-hover:opacity-0 transition-all duration-300">&#8594;</span></div>
+                <div className="py-3 w-[285px] explore--btn--anim opacity-0 translate-y-[3rem] rounded-full hover:bg-[#baa2ec] cursor-pointer  flex items-center gap-2 group  font-bold px-4 bg-[#B999FC]">Explore our case studies <span className="text-[1.2rem] delay-75 opacity-0 transition-all duration-300 ease-in-out -translate-x-[24px] group-hover:translate-x-1 group-hover:opacity-100 ">&#8594;</span> <span className="text-[1.2rem] ease-in-out delay-75 -translate-x-6 group-hover:translate-x-0 group-hover:opacity-0 transition-all duration-300">&#8594;</span></div>
             </div>
         </div>
         {/* slider should be here */}
