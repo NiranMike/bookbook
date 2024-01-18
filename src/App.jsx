@@ -1,6 +1,7 @@
 import Cursor from "./components/Cursor"
 import Explore from "./components/Explore"
 import Hero from "./components/Hero"
+import Insights from "./components/Insights"
 import Navbar from "./components/Navbar"
 import Pillar from "./components/Pillar"
 import Principles from "./components/Principles"
@@ -21,6 +22,7 @@ function App() {
         <Explore />
         <Principles />
         <Team />
+        <Insights />
       </div>
     </>
   )
