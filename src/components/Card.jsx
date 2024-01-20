@@ -32,8 +32,8 @@ const Card = ({ title, image, description }) => {
   return (
     <div className="bg-[#F2BD9E] pillar--card--anim translate-y-[5rem] opacity-0 text-[#2b1f4b] space-y-5 px-8 py-8 rounded-3xl">
       <div className="flex gap-3 items-center">
-        <img src={image} className="w-[90px] h-[90px]" alt="" />
-        <p className="text-[2rem] diff--font">{title}</p>
+        <img src={image} className="lg:w-[90px] w-[70px] h-[70px] lg:h-[90px] " alt="" />
+        <p className="lg:text-[2rem] text-[1.2rem] diff--font">{title}</p>
       </div>
       <p className="font-medium">
         {description}

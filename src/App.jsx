@@ -1,6 +1,7 @@
 import BusinessDecision from "./components/BusinessDecision"
 import Cursor from "./components/Cursor"
 import Explore from "./components/Explore"
+import Footer from "./components/Footer"
 import Hero from "./components/Hero"
 import Insights from "./components/Insights"
 import Navbar from "./components/Navbar"
@@ -16,7 +17,7 @@ function App() {
       <div className="relative ">
         <Cursor />
         <Navbar />
-        <div className="px-[130px]">
+        <div className="px-[10px] lg:px-[20px] xl:px-[130px]">
           <Hero />
           <Pillar />
         </div>
@@ -25,6 +26,7 @@ function App() {
         <Team />
         <Insights />
         <BusinessDecision />
+        <Footer />
       </div>
     </>
   )

@@ -3,7 +3,7 @@ const Navbar = () => {
   return (
     <nav className="flex sticky bg-[#F4EFF5] z-30 rounded-b-[2rem] inset-0 justify-between px-[80px] py-3 items-center">
           <h2 className="font-bold text-[2.6rem] text-[#190C39]">boobook</h2>
-          <div className="block space-y-3">
+          <div className="lg:block hidden space-y-3">
               <ul className="flex gap-5 justify-end font-semibold text-[#75727D]">
                   <li>jobs</li>
                   <li>team & culture</li>

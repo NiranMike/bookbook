@@ -51,15 +51,12 @@ const Explore = () => {
 
 
 
-    const handleDragStart = (e) => {
-        e.dataTransfer.setData('text/plain', ''); // Necessary for some browsers to enable dragging
-        console.log(e)
-    };
+    
 
 
   return (
     <div className="bg-[#190C39] overflow-x-hidden space-y-10 py-20 rounded-3xl">
-        <div className="px-[130px] grid grid-cols-2">
+        <div className="lg:px-[130px] px-[10px] md:px-[20px] grid md:grid-cols-2">
             <div className="text-[#B999FC] explore--text--anim diff--font opacity-0 translate-y-9 w-[350px] text-[3rem]">Explore our <span className="poppin--font">case studies</span></div>
             <div className="flex flex-col gap-9">
                 <p className="text-white explore--text--anim font-medium opacity-0 translate-y-9 text-base">Discover stories of businesses that overcame challenges and achieved remarkable results thanks to our tailored and collaborative approach.</p>
@@ -69,12 +66,8 @@ const Explore = () => {
         {/* slider should be here */}
         <div className=" overflow-x-scroll ">
             <div draggable 
-                onDragStart={handleDragStart} 
-                onDrag={(e) => {
-                    const xPosition = e.clientX;
-                    console.log('X position:', xPosition);
-                }} 
-                className="slider  flex  overflow-x-visible">
+                
+                className="  flex  overflow-x-visible">
                 {imgs.map((img, i)=>{
                     return(
                         <div key={i}>
